@@ -7,12 +7,14 @@ Patria Lim Yun Xuan, Kelly Yeoh Kaili*
 For BrainHack CODE_EXP 2020
 
 View me on [Github](https://github.com/xingyiz/code_exp)! 
+
 ---
 
 ## Table of Contents
 * [General Info](#general-info)
 * [Technologies](#technologies)
-* [How To Use and Limitations](#how-to-use-+-limitations)
+* [How To Use](#how-to-use)
+* [Features and Limitations](#features-and-limitations)
 * [TODO](#todo)
 
 ---
@@ -29,6 +31,8 @@ Our aim for KAMPONG is to bring the community together through:
 1. Engaging in Communal Projects that can be proposed by the people around you! This can range from running 100km collectively in June, to reading 100 books per person for 2020. 
 2. Setting Community Goals to promote ownership of community space and a greater sense of community, and also to get you back on track after a long Circuit Breaker.
 3. Plan Community Events such as karaoke or movie sessions that fosters stronger bonds within the community through interaction and inclusivity, and hence building a more resilient community.
+
+NOTE: This is our first time building an app, and also our first time working with JavaScript. We tried our best to deliver our ideal version of the app within these short 3 days, but unfortunately, we were limited by our skills and time. Hence, please don't be too disappointed at our final app :( Thank you for your kind understanding!
 
 ---
 
@@ -69,7 +73,8 @@ KAMPONG
 
 ---
 
-## How To Use + Limitations
+## How To Use
+
 ![Gif of App Usage](./Screen-Recording-20200603-201538.gif)
 
 1. Log in with your name. *(Ideally, it would be saved to Firebase so that you can access a specialised profile)*
@@ -77,8 +82,22 @@ KAMPONG
 3. Click on the `+` button in the bottom right hand corner. This brings you to a form to **Create a New Project**.
 4. Enter your Project Details, then click `Submit Form`. This will create a new card on the `Explore` tab. Check it out! *(One backend we worked hard on!)*
 5. The Explore tab contains community projects proposed by other users and you! 
-6. Clicking `Join Now` will bring you to a more in-depth description of the project. Clicking `Join` will then add you to the project. *(This should all be linked, but we hardcoded the Project Description page due to time constraints.)*
+6. Clicking `Join Now` will bring you to a more in-depth description of the project. Clicking `Join` will then add you to the project. *(Data should be all linked, but we hardcoded the Project Description page due to time constraints.)*
 7. After joining, interact with your group members in the `Chat` tab! *(Usernames should be displayed, but we enabled Anonymous Sign-in for purposes of this hackathon. Also, there should be multiple groups instead of just one main chat. But then again, time constraints.)*
+
+---
+
+## Features and Limitations
+
+Features:
+1. Cloud-based chat functionality
+2. Cloud-based data storage and syncing
+3. User-friendly interface
+
+Limitations:
+1. apk size is big due to usage of Expo (minimum app size is 25MB)
+2. Hardcoded some details due to time constraints
+3. No authentication for users yet (development in progress)
 
 ---
 
