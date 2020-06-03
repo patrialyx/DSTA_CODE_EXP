@@ -6,6 +6,7 @@ Patria Lim Yun Xuan, Kelly Yeoh Kaili*
 
 For BrainHack CODE_EXP 2020
 
+View me on [Github](https://github.com/xingyiz/code_exp)! 
 ---
 
 ## Table of Contents
